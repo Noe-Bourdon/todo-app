@@ -24,3 +24,8 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Tailwind */
+.input-base {
+  @apply p-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-400;
+}
