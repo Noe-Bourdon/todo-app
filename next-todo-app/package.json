@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "mysql2": "^3.16.2",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
@@ -22,7 +23,9 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "postcss": "^8.5.6",
+    "prisma": "^7.3.0",
     "tailwindcss": "^4.1.18",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }

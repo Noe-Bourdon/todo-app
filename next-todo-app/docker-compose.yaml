@@ -1,6 +1,5 @@
 
 services:
-
   web:
     image: next-app-image
     ports:

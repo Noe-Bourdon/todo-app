@@ -14,7 +14,7 @@ function page() {
     const [password, setPassword] = useState("");
 
     const handleSubmit = async () => {
-        try {
+        try { 
             const res = await fetch('/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -53,7 +53,7 @@ return (
                     <button type='submit' className='text-base bg-black text-white p-2 mb-2 mt-2 rounded-lg font-bold'>ログイン</button>
                     <p className='text-xs font-bold'>アカウントを持っていない方</p>
                     <div className='p-2 border border-gray-300 text-center rounded-lg'>
-                        <Link href={"/Registration"} className='font-bold'>アカウント作成へ</Link>
+                        <Link href={"/registration"} className='font-bold'>アカウント作成へ</Link>
                     </div>
                 </form>
             </div>
